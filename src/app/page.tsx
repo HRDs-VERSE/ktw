@@ -1416,7 +1416,7 @@ function ContactSection() {
               <h3 className="text-2xl font-bold mb-8">Get in Touch</h3>
 
               <div className="space-y-6">
-                <div className="flex items-center space-x-4">
+                {/* <div className="flex items-center space-x-4">
                   <div className="bg-white bg-opacity-20 p-3 rounded-lg">
                     <MailIcon color="black" className="h-6 w-6" />
                   </div>
@@ -1424,7 +1424,7 @@ function ContactSection() {
                     <div className="font-semibold">Email</div>
                     <div className="text-blue-100">info@kridhtravelworld.com</div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-center space-x-4">
                   <div className="bg-white bg-opacity-20 p-3 rounded-lg">
