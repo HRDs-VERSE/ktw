@@ -1652,7 +1652,7 @@ function ContactSection() {
             </Link>
           </div>
 
-          <div className="text-center">
+          {/* <div className="text-center">
             <div className="bg-orange-100 p-4 rounded-full inline-block mb-4">
               <MailIcon className="h-8 w-8 text-orange-600" />
             </div>
@@ -1661,7 +1661,7 @@ function ContactSection() {
             <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors">
               Email Us
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
@@ -1788,10 +1788,10 @@ function Footer() {
                 <PhoneIcon className="h-5 w-5 text-blue-400 flex-shrink-0" />
                 <span className="text-gray-300">+91-99990 79650</span>
               </div>
-              <div className="flex items-center space-x-3">
+              {/* <div className="flex items-center space-x-3">
                 <MailIcon className="h-5 w-5 text-blue-400 flex-shrink-0" />
                 <span className="text-gray-300">info@kridhtravelworld.com</span>
-              </div>
+              </div> */}
               <div className="flex items-center space-x-3">
                 <ClockIcon className="h-5 w-5 text-blue-400 flex-shrink-0" />
                 <span className="text-gray-300">24/7 Available</span>
