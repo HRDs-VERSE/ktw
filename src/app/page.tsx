@@ -26,6 +26,7 @@ import {
   AirplayIcon,
   MapIcon,
 } from "lucide-react"
+import Link from "next/link"
 
 // Destinations data organized by state with more details
 const destinationsByState = {
@@ -611,7 +612,7 @@ function Header() {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-3">
             <div>
-              <h1 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+              <h1 className="text-xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
                 KRIDH TRAVEL WORLD
               </h1>
               <p className="text-sm text-gray-600 hidden md:block">Your Trusted Travel Partner</p>
@@ -1485,7 +1486,7 @@ function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div className="lg:col-span-2">
+          {/* <div className="lg:col-span-2">
             <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-xl p-8">
               <h3 className="text-2xl font-bold text-gray-800 mb-8">Send us a Message</h3>
 
@@ -1624,7 +1625,7 @@ function ContactSection() {
                 We'll respond within 24 hours with a personalized quote and travel plan.
               </p>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Quick Contact Options */}
@@ -1635,9 +1636,9 @@ function ContactSection() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">WhatsApp</h3>
             <p className="text-gray-600 mb-4">Get instant quotes and support</p>
-            <button className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors">
+            <Link href={`https://wa.me/${919999079650}`}  className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors">
               Chat Now
-            </button>
+            </Link>
           </div>
 
           <div className="text-center">
@@ -1646,9 +1647,9 @@ function ContactSection() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Call Us</h3>
             <p className="text-gray-600 mb-4">Speak directly with our travel experts</p>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors">
+            <Link href={"tel:+919999079650"} className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors">
               Call Now
-            </button>
+            </Link>
           </div>
 
           <div className="text-center">
