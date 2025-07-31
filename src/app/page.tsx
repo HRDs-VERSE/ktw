@@ -527,7 +527,7 @@ const testimonials = [
     location: "Delhi",
     rating: 5,
     comment:
-      "If you're looking for a dog-friendly cab service, I highly recommend unicorn services ! As a dog owner, it's always a...",
+      "If you're looking for a dog-friendly cab service, I highly recommend services ! As a dog owner, it's always a...",
     trip: "Delhi",
     image: "https://lh3.googleusercontent.com/a-/ALV-UjUbI_UrgQX5gdOaGYEUiZmvxJFz599CBHWvjerfLB67cfk8Ue5j=w90-h90-p-rp-mo-ba2-br100",
   },
@@ -536,7 +536,7 @@ const testimonials = [
     location: "Delhi",
     rating: 5,
     comment:
-      "Unicorn Cab made our Delhi to Agra trip stress-free and enjoyable. The driver was punctual, and the transparent pricing meant...",
+      "Made our Delhi to Agra trip stress-free and enjoyable. The driver was punctual, and the transparent pricing meant...",
     trip: "Delhi to Agra",
     image: "https://lh3.googleusercontent.com/a-/ALV-UjVnHvebFABqxDKo4emp3ayEGcse75NUesexCLrrWdrfwfMN2imb=w90-h90-p-rp-mo-br100",
   },
@@ -545,7 +545,7 @@ const testimonials = [
     location: "Delhi",
     rating: 5,
     comment:
-      "Our family trip from Delhi to Rishikesh was fantastic with Unicorn Cab. Spacious vehicle, courteous driver, and smooth booking ...",
+      "Our family trip from Delhi to Rishikesh was fantastic with KTW. Spacious vehicle, courteous driver, and smooth booking ...",
     trip: "Delhi to Rishikesh",
     image: "https://lh3.googleusercontent.com/a/ACg8ocIwgZyId2kZkoqUO9hLQv7Jz65BmGdJw6kqihamIjq7qJqYww=w90-h90-p-rp-mo-br100",
   },
@@ -613,7 +613,7 @@ function Header() {
           <div className="flex items-center space-x-3">
             <div>
               <h1 className="text-xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                KRIDH TRAVEL WORLD
+                KRIDHA TRAVEL WORLD
               </h1>
               <p className="text-sm text-gray-600 hidden md:block">Your Trusted Travel Partner</p>
             </div>
@@ -722,7 +722,7 @@ function HeroSection() {
           <h2 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Explore India with
             <span className="block bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-              KRIDH TRAVEL WORLD
+              KRIDHA TRAVEL WORLD
             </span>
           </h2>
           <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
@@ -777,7 +777,7 @@ function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About KRIDH TRAVEL WORLD</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">About KRIDHA TRAVEL WORLD</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We are a premier travel service provider dedicated to making your journey comfortable, safe, and
               memorable. With years of experience in the travel industry, we have built a reputation for excellence and
@@ -789,7 +789,7 @@ function AboutSection() {
             <div>
               <h3 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Founded with a vision to provide exceptional travel experiences, KRIDH TRAVEL WORLD has been serving
+                Founded with a vision to provide exceptional travel experiences, KRIDHA TRAVEL WORLD has been serving
                 travelers across India for over 5 years. We started as a small taxi service in Delhi and have grown into
                 a comprehensive travel solution provider.
               </p>
@@ -1183,7 +1183,7 @@ function TestimonialsSection() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">What Our Customers Say</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Don't just take our word for it. Here's what our satisfied customers have to say about their travel
-            experiences with KRIDH TRAVEL WORLD.
+            experiences with KRIDHA TRAVEL WORLD.
           </p>
         </div>
 
@@ -1333,7 +1333,7 @@ function GallerySection() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Travel Gallery</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Explore the beautiful destinations and memorable moments captured during our tours. Get inspired for your
-            next adventure with KRIDH TRAVEL WORLD.
+            next adventure with KRIDHA TRAVEL WORLD.
           </p>
         </div>
 
@@ -1680,7 +1680,7 @@ function Footer() {
               <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-2 rounded-lg">
                 <CarIcon className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold">KRIDH TRAVEL WORLD</h3>
+              <h3 className="text-xl font-bold">KRIDHA TRAVEL WORLD</h3>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Your trusted travel partner for comfortable and reliable transportation services across India. Experience
@@ -1804,7 +1804,7 @@ function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-300">© 2025 KRIDH TRAVEL WORLD. All rights reserved.</p>
+              <p className="text-gray-300">© 2025 KRIDHA TRAVEL WORLD. All rights reserved.</p>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-300 hover:text-white transition-colors text-sm">
