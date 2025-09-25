@@ -1647,7 +1647,7 @@ function ContactSection() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">Call Us</h3>
             <p className="text-gray-600 mb-4">Speak directly with our travel experts</p>
-            <Link href={"tel:+919999079650"} className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors">
+            <Link href={"tel:+919675642555"} className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition-colors">
               Call Now
             </Link>
           </div>
