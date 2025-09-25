@@ -1432,7 +1432,7 @@ function ContactSection() {
                   </div>
                   <div>
                     <div className="font-semibold">Phone</div>
-                    <div className="text-blue-100">+91-99990 79650</div>
+                    <div className="text-blue-100">+91-96756 42555</div>
                   </div>
                 </div>
 
@@ -1442,7 +1442,7 @@ function ContactSection() {
                   </div>
                   <div>
                     <div className="font-semibold">Address</div>
-                    <div className="text-blue-100">New Delhi, India</div>
+                    <div className="text-blue-100">T-1, Delhi airport, 8/142, Mehram Nagar West, New Delhi, Delhi 110037 India</div>
                   </div>
                 </div>
 
@@ -1636,7 +1636,7 @@ function ContactSection() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">WhatsApp</h3>
             <p className="text-gray-600 mb-4">Get instant quotes and support</p>
-            <Link href={`https://wa.me/${919999079650}`}  className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors">
+            <Link href={`https://wa.me/${919675642555}`}  className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors">
               Chat Now
             </Link>
           </div>
@@ -1782,11 +1782,11 @@ function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <MapPinIcon className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-300">New Delhi, India</span>
+                <span className="text-gray-300">T-1, Delhi airport, 8/142, Mehram Nagar West, New Delhi, Delhi 110037 India</span>
               </div>
               <div className="flex items-center space-x-3">
                 <PhoneIcon className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <span className="text-gray-300">+91-99990 79650</span>
+                <span className="text-gray-300">+91-96756 42555</span>
               </div>
               {/* <div className="flex items-center space-x-3">
                 <MailIcon className="h-5 w-5 text-blue-400 flex-shrink-0" />
